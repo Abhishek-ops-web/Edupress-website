@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduPress Navbar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="EduPress Logo">
+      </div>
+      <!-- Hamburger toggle for mobile view -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">LearnPress Add-ons</a></li>
+        <li><a href="#">Premium Theme</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <a href="#" class="btn login-btn">Login</a>
+        <a href="#" class="btn register-btn">Register</a>
+      </div>
+    </div>
+  </nav>
+
+  
+  <section class="hero">
+    <div class="hero-content">
+        <h2>Build Skills With Online Course</h2>
+        <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized that cannot trouble.</p>
+        <button>Posts Comment</button>
+    </div>
+    <div class="hero-image">
+        <img src="student.jpg" alt="Student Image">
+    </div>
+</section>
+
+<section class="categories-section">
+    <div class="header">
+      <div class="header-text">
+        <h2>Top Categories</h2>
+        <p>Explore our Popular Categories</p>
+      </div>
+      <button class="all-categories-btn">All Categories</button>
+    </div>
+    <div class="categories-grid">
+      <div class="category-card">
+        <span class="icon">🎨</span>
+        <h3>Art & Design</h3>
+        <p>38 Courses</p>
+      </div>
+      <div class="category-card active">
+        <span class="icon">💻</span>
+        <h3>Development</h3>
+        <p>38 Courses</p>
+      </div>
+      <div class="category-card">
+        <span class="icon">💬</span>
+        <h3>Communication</h3>
+        <p>38 Courses</p>
+      </div>
+      <div class="category-card">
+        <span class="icon">🎥</span>
+        <h3>Videography</h3>
+        <p>38 Courses</p>
+      </div>
+      <div class="category-card">
+        <span class="icon">📸</span>
+        <h3>Photography</h3>
+        <p>38 Courses</p>
+      </div>
+      <div class="category-card">
+        <span class="icon">📈</span>
+        <h3>Marketing</h3>
+        <p>38 Courses</p>
+      </div>
+      <div class="category-card">
+        <span class="icon">✍</span>
+        <h3>Content Writing</h3>
+        <p>38 Courses</p>
+      </div>
+      <div class="category-card">
+        <span class="icon">💰</span>
+        <h3>Finance</h3>
+        <p>38 Courses</p>
+        <span class="highlight"></span>
+      </div>
+      <div class="category-card">
+        <span class="icon">🔬</span>
+        <h3>Science</h3>
+        <p>38 Courses</p>
+      </div>
+      <div class="category-card">
+        <span class="icon">🌐</span>
+        <h3>Network</h3>
+        <p>38 Courses</p>
+      </div>
+    </div>
+  </section>
+
+<!-- featured section -->
+
+<section class="featured-courses">
+  <!-- <div class="section-header">
+      <h2>Featured Courses</h2>
+      <p>Explore our Popular Courses</p>
+      <button class="all-courses-btn">All Courses</button>
+  </div> -->
+  <div class="header">
+    <div class="header-text">
+      <h2>Featured Courses</h2>
+      <p>Explore our Popular Courses</p>
+    </div>
+    <button class="all-categories-btn">All Courses</button>
+  </div>
+  <div class="course-grid">
+      <div class="course-card">
+          <div class="course-image">
+              <img src="course5.webp" alt="Course 6">
+              <span class="course-category">Photography</span>
+          </div>
+          <div class="course-info">
+              <h3>Create An LMS Website With LearnPress</h3>
+              <p class="instructor">by DeterminedPoitras</p>
+              <p><i class="far fa-clock"></i> 2 Weeks <span>•</span> <i class="fas fa-users"></i> 156 Students</p>
+              <div class="course-price">
+                  <span class="price">$29.0</span> <span class="price-discount">Free</span>
+              </div>
+              <a href="#" class="view-more-btn">View More</a>
+          </div>
+      </div>
+      <!-- Repeat similar blocks for other courses -->
+      <div class="course-card">
+          <div class="course-image">
+              <img src="course.webp" alt="Course 1">
+              <span class="course-category">Photography</span>
+          </div>
+          <div class="course-info">
+              <h3>Create An LMS Website With LearnPress</h3>
+              <p class="instructor">by DeterminedPoitras</p>
+              <p><i class="far fa-clock"></i> 2 Weeks <span>•</span> <i class="fas fa-users"></i> 156 Students</p>
+              <div class="course-price">
+                  <span class="price">$29.0</span> <span class="price-discount">Free</span>
+              </div>
+              <a href="#" class="view-more-btn">View More</a>
+          </div>
+      </div>
+      <div class="course-card">
+          <div class="course-image">
+              <img src="course1.jpeg" alt="Course 2">
+              <span class="course-category">Photography</span>
+          </div>
+          <div class="course-info">
+              <h3>Create An LMS Website With LearnPress</h3>
+              <p class="instructor">by DeterminedPoitras</p>
+              <p><i class="far fa-clock"></i> 2 Weeks <span>•</span> <i class="fas fa-users"></i> 156 Students</p>
+              <div class="course-price">
+                  <span class="price">$29.0</span> <span class="price-discount">Free</span>
+              </div>
+              <a href="#" class="view-more-btn">View More</a>
+          </div>
+      </div>
+      <div class="course-card">
+          <div class="course-image">
+              <img src="course2.jpg" alt="Course 3">
+              <span class="course-category">Photography</span>
+          </div>
+          <div class="course-info">
+              <h3>Create An LMS Website With LearnPress</h3>
+              <p class="instructor">by DeterminedPoitras</p>
+              <p><i class="far fa-clock"></i> 2 Weeks <span>•</span> <i class="fas fa-users"></i> 156 Students</p>
+              <div class="course-price">
+                  <span class="price">$29.0</span> <span class="price-discount">Free</span>
+              </div>
+              <a href="#" class="view-more-btn">View More</a>
+          </div>
+      </div>
+      <div class="course-card">
+          <div class="course-image">
+              <img src="course3.jpg" alt="Course 4">
+              <span class="course-category">Photography</span>
+          </div>
+          <div class="course-info">
+              <h3>Create An LMS Website With LearnPress</h3>
+              <p class="instructor">by DeterminedPoitras</p>
+              <p><i class="far fa-clock"></i> 2 Weeks <span>•</span> <i class="fas fa-users"></i> 156 Students</p>
+              <div class="course-price">
+                  <span class="price">$29.0</span> <span class="price-discount">Free</span>
+              </div>
+              <a href="#" class="view-more-btn">View More</a>
+          </div>
+      </div>
+      <div class="course-card">
+          <div class="course-image">
+              <img src="course4.webp" alt="Course 5">
+              <span class="course-category">Photography</span>
+          </div>
+          <div class="course-info">
+              <h3>Create An LMS Website With LearnPress</h3>
+              <p class="instructor">by DeterminedPoitras</p>
+              <p><i class="far fa-clock"></i> 2 Weeks <span>•</span> <i class="fas fa-users"></i> 156 Students</p>
+              <div class="course-price">
+                  <span class="price">$29.0</span> <span class="price-discount">Free</span>
+              </div>
+              <a href="#" class="view-more-btn">View More</a>
+          </div>
+      </div>
+      
+  </div>
+</section>
+
+<div class="header">
+  <div>
+      <h1>LearnPress Add-Ons</h1>
+      <p>The next level of LearnPress. Use WordPress Plugin. More Powerful, Flexible, and Magical Inside.</p>
+      <a href="#">Explore Course</a>
+  </div>
+</div>
+
+<div class="icons-container">
+  <div class="icon">
+      <img src="https://img.icons8.com/color/96/wordpress.png" alt="WordPress Icon">
+  </div>
+  <div class="icon">
+      <img src="https://img.icons8.com/color/96/plugin.png" alt="Plugin Icon">
+  </div>
+  <div class="icon">
+      <img src="https://img.icons8.com/color/96/shopping-cart.png" alt="Shopping Cart Icon">
+  </div>
+  <div class="icon">
+      <img src="https://img.icons8.com/color/96/chat.png" alt="Chat Icon">
+  </div>
+  <div class="icon">
+      <img src="https://img.icons8.com/color/96/question-mark.png" alt="Question Icon">
+  </div>
+  <div class="icon">
+      <img src="https://img.icons8.com/color/96/search.png" alt="Search Icon">
+  </div>
+</div>
+
+
+<!-- Stats Section -->
+<div class="stats-container">
+  <div class="stat-box">
+      <h2>25K+</h2>
+      <p>Active Students</p>
+  </div>
+  <div class="stat-box">
+      <h2>899</h2>
+      <p>Total Courses</p>
+  </div>
+  <div class="stat-box">
+      <h2>158</h2>
+      <p>Instructors</p>
+  </div>
+  <div class="stat-box">
+      <h2>100%</h2>
+      <p>Satisfaction Rate</p>
+  </div>
+</div>
+
+<!-- Content Section -->
+<div class="content-container">
+  <div class="illustration">
+      <img src="illustration.png" alt="Learning Illustration">
+  </div>
+  <div class="text-content">
+      <h2>Grow Us Your Skill With LearnPress LMS</h2>
+      <p>We empower with rigorous integration and skilled mentors who are dedicated and determined to deliver great results.</p>
+      <ul>
+          <li>Certification</li>
+          <li>Flexibility</li>
+          <li>Qualification</li>
+          <li>Certification</li> 
+      </ul>
+      <a href="#" class="explore-btn">Explore Course</a>
+  </div>
+</div>
+
+<section class="theme-promotion">
+  <div class="promotion-wrapper">
+      <img src="promotion.jpg" alt="Education WordPress Theme">
+      <div class="promotion-content">
+          <h2>Providing Amazing Education WordPress Theme</h2>
+          <p>The next level of LMS WordPress Theme. Learn anytime and anywhere.</p>
+          <button class="explore-btn">Explore Course</button>
+      </div>
+  </div>
+</section>
+
+
+<section class="feedback-section">
+  <h2>Student Feedbacks</h2>
+  <p>What Students Say About Academy LMS</p>
+  <div class="feedback-cards">
+      <div class="feedback-card">
+          <p>"I must explain to you how all this mistaken..."</p>
+          <h4>Roe Smith</h4>
+          <p>Designer</p>
+      </div>
+      <div class="feedback-card">
+          <p>"I must explain to you how all this mistaken..."</p>
+          <h4>Roe Smith</h4>
+          <p>Designer</p>
+      </div>
+      <div class="feedback-card">
+          <p>"I must explain to you how all this mistaken..."</p>
+          <h4>Roe Smith</h4>
+          <p>Designer</p>
+      </div>
+      <div class="feedback-card">
+          <p>"I must explain to you how all this mistaken..."</p>
+          <h4>Roe Smith</h4>
+          <p>Designer</p>
+      </div>
+  </div>
+</section>
+
+
+<!-- HTML for the Call-to-Action: -->
+<section class="cta-academy">
+<div class="cta-container">
+  <div class="cta-left">
+      <div class="cta-icon">
+          <img src="academy icon.png" alt="Academy Icon">
+      </div>
+      <h2>Let's Start With Academy LMS</h2>
+  </div>
+  <div class="cta-right">
+      <a href="#" class="cta-button student">I'm A Student</a>
+      <a href="#" class="cta-button instructor">Become An Instructor</a>
+  </div>
+</div>
+</section>
+
+  <!-- Latest Articles Section -->
+  <section class="latest-articles">
+    <div class="articles-header">
+        <h1>Latest Articles</h1>
+        <a href="#" class="all-articles-btn">All Articles</a>
+    </div>
+    <p class="subheading">Explore our Free Articles</p>
+
+    <div class="article-cards-container">
+        <!-- Article 1 -->
+        <div class="article-card">
+            <img src="article.jpg" alt="Article Image 1">
+            <h2>Best LearnPress WordPress Theme Collection For 2023</h2>
+            <p class="date">
+                <i class="fas fa-calendar-alt"></i> 19 July 2023
+            </p>
+            <p class="description">Looking for an exciting & well-functional LearnPress WordPress Theme...</p>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="article-card">
+            <img src="article1.jpg" alt="Article Image 2">
+            <h2>Best LearnPress WordPress Theme Collection For 2023</h2>
+            <p class="date">
+                <i class="fas fa-calendar-alt"></i> 20 July 2023
+            </p>
+            <p class="description">Looking for an exciting & well-functional LearnPress WordPress Theme...</p>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="article-card">
+            <img src="article2.avif" alt="Article Image 3">
+            <h2>Best LearnPress WordPress Theme Collection For 2023</h2>
+            <p class="date">
+                <i class="fas fa-calendar-alt"></i> 23 July 2023
+            </p>
+            <p class="description">Looking for an exciting & well-functional LearnPress WordPress Theme...</p>
+        </div>
+        <div class="article-card">
+            <img src="article2.avif" alt="Article Image 3">
+            <h2>Best LearnPress WordPress Theme Collection For 2023</h2>
+            <p class="date">
+                <i class="fas fa-calendar-alt"></i> 23 July 2023
+            </p>
+            <p class="description">Looking for an exciting & well-functional LearnPress WordPress Theme...</p>
+        </div>
+    </div>
+</section>
+
+<!--Footer section-->
+<footer class="site-footer">
+  <div class="footer-container">
+      <div class="footer-logo">
+          <img src="logo.png" alt="EduPress Logo">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="footer-links">
+          <h4>Get Help</h4>
+          <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Latest Articles</a></li>
+              <li><a href="#">FAQ</a></li>
+          </ul>
+      </div>
+      <div class="footer-links">
+          <h4>Programs</h4>
+          <ul>
+              <li><a href="#">Art & Design</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">IT & Software</a></li>
+              <li><a href="#">Languages</a></li>
+              <li><a href="#">Programming</a></li>
+          </ul>
+      </div>
+      <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>2321 New Design Str, Lorem Ipsum 10, Hudson Yards, USA</p>
+          <p>Tel: +123 2500-567-8988</p>
+          <p>Mail: supportlms@gmail.com</p>
+          <div class="footer-socials">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>Copyright © 2024 LearnPress LMS | Powered by ThimPress</p>
+  </div>
+</footer>
+</body>
+</html>
